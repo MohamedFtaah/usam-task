@@ -37,3 +37,16 @@
 img {
     min-width: 100%;
 }
+
+@media (min-width: 1024px) {
+    .text {
+        top: 50%;
+        transform: translate(0, -50%)
+    }
+}
+
+@media not all and (min-width: 550px) {
+    .sm-x {
+        display: none
+    }
+}

@@ -12,9 +12,16 @@ h1 {
   font-size: xx-large;
 }
 
-header {
+.header {
+  width: 100%;
   border-bottom: 0.9px solid #e5e5e5;
-  z-index: 1;
-  position: fixed;
+  z-index: 10;
+
   color: #e5e5e5;
+}
+
+@media (min-width: 640px) {
+  .header {
+    position: fixed;
+  }
 }

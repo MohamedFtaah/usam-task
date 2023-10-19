@@ -3,7 +3,7 @@ import React from 'react'
 export default function ImgInfo() {
     return (
         <div style={{ top: '0' }} className='mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 lg:text-start max-lg:text-center absolute z-10 w-full h-full' >
-            <div className='text lg:w-1/2 max-lg:w-full max-lg:right-0 max-lg:bottom-0 max-lg:mb-6  absolute   text-white z-10 '>
+            <div className='text lg:w-1/2 max-lg:w-full max-lg:right-0 max-lg:bottom-0 max-lg:mb-6 max-sm:mb-0  absolute   text-white z-10 '>
                 <div >
                     <p className='mb-3 text-start pr-12'>
                         مدة الكورس: {'ساعه'}

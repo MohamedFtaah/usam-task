@@ -17,7 +17,7 @@ export default function Slider({ aspr = 18 / 9, info = 2 }) {
 
         <div className='landing ' style={{ aspectRatio: `${aspr}` }}>
             <i style={{ top: '50%', transform: 'translate(0, -50%)', right: ' 0' }} className="mr-2 fa-solid fa-angle-right absolute z-20 text-white  text-3xl hover:text-slate-400 cursor-pointer" onClick={() => { setstate(state - 100) }} ></i>
-            <div style={{ left: `${state}%` }} className='img-col   '>
+            <div style={{ left: `${state}%`, width: '400%' }} className='img-col   '>
 
                 <div className='slide  '><img src={img1} alt=''   ></img> {info ? <ImgInfo></ImgInfo> : null} </div>
                 <div className='slide'><img src={img2} alt='' ></img>{info ? <ImgInfo></ImgInfo> : null}</div>

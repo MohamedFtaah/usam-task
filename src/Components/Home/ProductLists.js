@@ -50,7 +50,7 @@ export default function ProductLists() {
             <div className="mx-auto max-w-2xl  py-8 px-4 sm:px-6 lg:px-8 sm:py-12 lg:max-w-7xl ">
 
                 <SupCategoriesFiltr></SupCategoriesFiltr>
-                <div className="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 max-sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
+                <div className="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-4 max-sm:grid-cols-4 lg:grid-cols-6 xl:gap-x-8">
                     {products.map((product) => (
                         <ProductCard product={product}></ProductCard>
                     ))}
